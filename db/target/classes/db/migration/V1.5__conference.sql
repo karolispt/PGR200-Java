@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS Conference (ConferenceId SERIAL PRIMARY KEY, ConferenceName VARCHAR NOT NULL);

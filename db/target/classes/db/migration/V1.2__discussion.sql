@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS Discussion (DiscussionId serial PRIMARY KEY, Title VARCHAR NOT NULL, Description VARCHAR, Topic VARCHAR, TimeEntryId int REFERENCES  TimeEntry(TimeEntryId));

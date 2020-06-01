@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS Timetable (TimetableId SERIAL PRIMARY KEY, DayId INT REFERENCES ConferenceDay(DayId), TimeEntryId INT REFERENCES TimeEntry(TimeEntryId), TrackId INT REFERENCES Track(TrackId));
